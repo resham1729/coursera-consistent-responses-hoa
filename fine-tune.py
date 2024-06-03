@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # Set up your OpenAI API key
 client = OpenAI(
-      api_key = 'sk-proj-8YFNRzEPyiFaxHECpVfLT3BlbkFJn8HeGigtuvv2LfKrbxQP'  # Replace 'your_openai_api_key' with your actual API key
+      api_key = 'your_openai_api_key'  # Replace 'your_openai_api_key' with your actual API key
 )
 
 # Load your JSONL dataset

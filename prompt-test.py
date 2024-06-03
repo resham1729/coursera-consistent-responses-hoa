@@ -4,7 +4,7 @@ from openai import OpenAI
 
 ## Set up your OpenAI API key
 client = OpenAI(
-      api_key = 'sk-proj-8YFNRzEPyiFaxHECpVfLT3BlbkFJn8HeGigtuvv2LfKrbxQP'  # Replace 'your_openai_api_key' with your actual API key
+      api_key = 'your_openai_api_key'  # Replace 'your_openai_api_key' with your actual API key
 )
 
 # Define the prompt and model parameters
@@ -12,7 +12,7 @@ client = OpenAI(
 # prompt = "Can you recommend some educational toys for 5-year-olds?"
 prompt = "Do you sell cars?"
 # model = "gpt-3.5-turbo"
-model = "ft:gpt-3.5-turbo-0125:personal::9UsZrg0l"  # Replace 'your_model' with your actual Model name
+model = "your_model"  # Replace 'your_model' with your actual Model name
 stop = ["\n", "Assistant:"]  # Specify stopping sequences
 
 # Define a function to test the prompt with different temperature settings
